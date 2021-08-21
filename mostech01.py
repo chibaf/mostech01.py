@@ -1,9 +1,9 @@
 def Q(t):
-  import math
   R1=1;R2=1;Vx=1;C0=1;C1=1
   q1=(C0*R2*Vx)/(R1 + R2) + C1/math.exp(((R1 + R2)*t)/(C0*R1*R2))
   return q1
 
+import math
 import matplotlib.pyplot as plt
 import numpy as np
 
